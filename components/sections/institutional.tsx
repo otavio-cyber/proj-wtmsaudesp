@@ -6,14 +6,14 @@ export function InstitutionalSection() {
           {/* Content */}
           <div>
             <span className="text-xs font-medium tracking-wider uppercase text-[#483FC5] mb-4 block">
-              Sobre a wtmsaudeSP
+              Sobre a <strong>WTM SAÚDE SP</strong>
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#0a0a0a] leading-tight tracking-tight mb-8">
               Comprometimento
             </h2>
             <div className="space-y-6 text-[#6b6b6b] leading-relaxed text-lg">
               <p>
-                Total atenção à Vida Humana, a wtmsaudeSP atua na distribuição de dispositivos médicos de alta complexidade com responsabilidade e apoiando procedimentos que exigem precisão técnica, disponibilidade imediata e domínio operacional.
+                Total atenção à Vida Humana, a <strong>WTM SAÚDE SP</strong> atua na distribuição de dispositivos médicos de alta complexidade com responsabilidade e apoiando procedimentos que exigem precisão técnica, disponibilidade imediata e domínio operacional.
               </p>
               <p>
                 Nossa operação integra armazenagem e logística qualificadas à atuação em instrumentação cirúrgica, assim como, atendendo médicos, hospitais e operadoras de saúde com foco em previsibilidade, rastreabilidade e suporte especializado em cada etapa do cuidado.

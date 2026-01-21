@@ -50,7 +50,7 @@ export function OperationsSection() {
             Atuação técnica integrada ao ambiente cirúrgico
           </h2>
           <p className="text-[#6b6b6b] leading-relaxed text-lg">
-            A wtmsaudeSP opera como parceira técnica na distribuição de dispositivos médicos, oferecendo logística especializada, gestão de implantes e suporte direto aos procedimentos cirúrgicos.
+            A <strong>WTM SAÚDE SP</strong> opera como parceira técnica na distribuição de dispositivos médicos, oferecendo logística especializada, gestão de implantes e suporte direto aos procedimentos cirúrgicos.
           </p>
         </div>
 

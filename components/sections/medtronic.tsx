@@ -52,7 +52,7 @@ export function MedtronicSection() {
                 Suas soluções são amplamente utilizadas em procedimentos de alta complexidade, oferecendo precisão, segurança e evidência científica para diferentes especialidades médicas.
               </p>
               <p>
-                A wtmsaudeSP atua na distribuição e no suporte técnico dessas tecnologias em sua região de operação.
+                A <strong>WTM SAÚDE SP</strong> atua na distribuição e no suporte técnico dessas tecnologias em sua região de operação.
               </p>
             </div>
 

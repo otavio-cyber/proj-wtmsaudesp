@@ -5,27 +5,33 @@ import { ArrowUpRight } from "lucide-react"
 
 const products = [
   {
-    title: "Coluna e Spine",
-    description: "Implantes e instrumentais para cirurgia da coluna vertebral.",
-    href: "/produtos/coluna-spine",
+    title: "Spine / Coluna",
+    description: "Implantes e sistemas para cirurgias da coluna vertebral.",
+    href: "#",
     image: "/images/products/spine.jpg",
   },
   {
-    title: "Neurocirurgia",
-    description: "Tecnologias avançadas para procedimentos neurocirúrgicos.",
-    href: "/produtos/neurocirurgia",
-    image: "/images/products/neuro.jpg",
+    title: "Cervical",
+    description: "Soluções específicas para procedimentos cervicais.",
+    href: "#",
+    image: "/images/products/cervical.jpg",
   },
   {
-    title: "Neuromodulação",
-    description: "Soluções de estimulação para dor crônica e distúrbios neurológicos.",
-    href: "/produtos/neuromodulacao",
-    image: "/images/products/neuromodulacao.jpg",
+    title: "Neurofuncional",
+    description: "Tecnologias para neuromodulação e controle funcional.",
+    href: "#",
+    image: "/images/products/neurofuncional.jpg",
+  },
+  {
+    title: "Neurocirurgia",
+    description: "Dispositivos de alta precisão para neurocirurgia.",
+    href: "#",
+    image: "/images/products/neurocirurgia.jpg",
   },
   {
     title: "Radiofrequência",
     description: "Equipamentos para tratamentos minimamente invasivos.",
-    href: "/produtos/radiofrequencia",
+    href: "#",
     image: "/images/products/radiofrequencia.jpg",
   },
 ]
@@ -44,12 +50,13 @@ export function ProductsSection() {
             Implantes Cirúrgicos
           </h2>
           <p className="text-lg text-[#6b6b6b] leading-relaxed">
-            A WTMSaúdeSP conduz com excelencia operações de armazenagem e distribuição de implantes cirúrgicos com rigor técnico e eficiência logística.
+            A <strong>WTM Saúde SP</strong> atua com excelência na armazenagem e distribuição
+            de implantes cirúrgicos, aliando rigor técnico e eficiência logística.
           </p>
         </div>
 
         {/* Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {products.map((product) => (
             <Link
               key={product.title}
@@ -68,21 +75,21 @@ export function ProductsSection() {
               {/* Content */}
               <div
                 className="
-    relative z-10 h-full w-full p-8 flex flex-col justify-end
-    transition-all duration-700 ease-out
-    group-hover:opacity-70
-    group-hover:translate-y-4
-  "
+                  relative z-10 h-full w-full p-8 flex flex-col justify-end
+                  transition-all duration-700 ease-out
+                  group-hover:opacity-70
+                  group-hover:translate-y-4
+                "
               >
-
                 <h3 className="text-xl font-semibold text-white mb-3">
                   {product.title}
                 </h3>
+
                 <p className="text-sm text-white/85 mb-6 leading-relaxed">
                   {product.description}
                 </p>
 
-                <div className="inline-flex items-center gap-2 text-sm font-medium text-white border border-[#adaaaa] px-4 py-2 rounded-full w-fit">
+                <div className="inline-flex items-center gap-2 text-sm font-medium text-white border border-white/70 px-4 py-2 rounded-full w-fit">
                   Saiba mais
                   <ArrowUpRight className="w-4 h-4" />
                 </div>
