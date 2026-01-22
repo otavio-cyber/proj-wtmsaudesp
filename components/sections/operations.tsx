@@ -78,11 +78,27 @@ export function OperationsSection() {
         </div>
 
         {/* Bottom text */}
-        <div className="mt-20 pt-12 border-t border-[#e5e5e5]">
-          <p className="text-center text-[#6b6b6b] max-w-3xl mx-auto leading-relaxed">
-            Nossa atuação está alinhada às exigências técnicas, regulatórias e operacionais de centros cirúrgicos de média e alta complexidade.
-          </p>
-        </div>
+<div className="mt-20 pt-12 border-t border-[#e5e5e5]">
+  <div className="grid lg:grid-cols-2 gap-12 items-center max-w-5xl mx-auto">
+    
+    {/* Texto */}
+    <p className="text-[#6b6b6b] leading-relaxed text-lg">
+      Nossa atuação está alinhada às exigências técnicas, regulatórias e
+      operacionais de centros cirúrgicos de média e alta complexidade.
+    </p>
+
+    {/* Imagem */}
+    <div className="w-full max-w-sm aspect-square relative overflow-hidden rounded-2xl justify-self-center">
+      <img
+        src="/images/quemsomos.webp"
+        alt="Quem somos"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</div>
+
       </div>
     </section>
   )

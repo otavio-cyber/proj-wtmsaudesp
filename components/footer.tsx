@@ -30,7 +30,7 @@ export function Footer() {
           {/* Logo and description */}
           <div className="col-span-2 md:col-span-1">
             <Image
-              src="/images/wtm-20saude-20sp-logoaprovado.png"
+              src="/images/logo-wtmsaude-branco.svg"
               alt="WTM Saúde SP"
               width={140}
               height={33}
@@ -97,7 +97,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-[#1a1a1a]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-[#6b6b6b]">
-              © {new Date().getFullYear()} wtmsaudeSP. Todos os direitos reservados.
+              © {new Date().getFullYear()} WTM Saúde SP. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-6">
               <Link href="#" className="text-xs text-[#6b6b6b] hover:text-white transition-colors">

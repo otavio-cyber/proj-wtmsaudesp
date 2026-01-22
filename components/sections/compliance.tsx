@@ -36,7 +36,7 @@ export function ComplianceSection() {
             </h2>
             <div className="space-y-6 text-[#6b6b6b] leading-relaxed text-lg mb-12">
               <p>
-                A wtmsaudeSP atua com base em princípios de integridade, transparência e conformidade regulatória em todas as suas relações com médicos, hospitais, operadoras e parceiros.
+                A <strong>WTM Saúde SP</strong> atua com base em princípios de integridade, transparência e conformidade regulatória em todas as suas relações com médicos, hospitais, operadoras e parceiros.
               </p>
               <p>
                 Nossos processos estão alinhados às normas aplicáveis ao setor de saúde, às boas práticas de governança e aos padrões éticos exigidos em ambientes clínicos e hospitalares.

@@ -1,11 +1,11 @@
 const specialties = [
   {
     title: "Coluna e Spine",
-    image: "/images/specialties/coluna-spine-v2.png",
+    image: "/images/specialties/coluna-spine-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
         <img 
-          src="/images/specialties/coluna-spine-v2.png" 
+          src="/images/specialties/coluna-spine-v2.webp" 
           alt="Coluna e Spine - Cirurgia de coluna vertebral" 
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
@@ -14,11 +14,11 @@ const specialties = [
   },
   {
     title: "Neurocirurgia",
-    image: "/images/specialties/neurocirurgia-v2.png",
+    image: "/images/specialties/neurocirurgia-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
         <img 
-          src="/images/specialties/neurocirurgia-v2.png" 
+          src="/images/specialties/neurocirurgia-v2.webp" 
           alt="Neurocirurgia - Cirurgia cerebral e neurológica" 
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
@@ -27,11 +27,11 @@ const specialties = [
   },
   {
     title: "Neuromodulação",
-    image: "/images/specialties/neuromodulacao-v2.png",
+    image: "/images/specialties/neuromodulacao-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
         <img 
-          src="/images/specialties/neuromodulacao-v2.png" 
+          src="/images/specialties/neuromodulacao-v2.webp" 
           alt="Neuromodulação - Estimulação elétrica terapêutica" 
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
@@ -40,11 +40,11 @@ const specialties = [
   },
   {
     title: "Radiofrequência",
-    image: "/images/specialties/radiofrequencia-v2.png",
+    image: "/images/specialties/radiofrequencia-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
         <img 
-          src="/images/specialties/radiofrequencia-v2.png" 
+          src="/images/specialties/radiofrequencia-v2.webp" 
           alt="Radiofrequência - Tratamento térmico por ondas de rádio" 
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
