@@ -8,31 +8,31 @@ const products = [
     title: "Spine / Coluna",
     description: "Implantes e sistemas para cirurgias da coluna vertebral.",
     href: "#",
-    image: "/images/products/spine.jpg",
-  },
-  {
-    title: "Cervical",
-    description: "Soluções específicas para procedimentos cervicais.",
-    href: "#",
-    image: "/images/products/cervical.jpg",
-  },
-  {
-    title: "Neurofuncional",
-    description: "Tecnologias para neuromodulação e controle funcional.",
-    href: "#",
-    image: "/images/products/neurofuncional.jpg",
-  },
-  {
-    title: "Neurocirurgia",
-    description: "Dispositivos de alta precisão para neurocirurgia.",
-    href: "#",
-    image: "/images/products/neurocirurgia.jpg",
+    image: "/images/products/spine-coluna.webp",
   },
   {
     title: "Radiofrequência",
     description: "Equipamentos para tratamentos minimamente invasivos.",
     href: "#",
-    image: "/images/products/radiofrequencia.jpg",
+    image: "/images/products/radiofrequencia.webp",
+  },
+  {
+    title: "Neurocirurgia",
+    description: "Dispositivos de alta precisão para neurocirurgia.",
+    href: "#",
+    image: "/images/products/neurocirurgia.webp",
+  },
+  {
+    title: "Neurofuncional",
+    description: "Tecnologias para neuromodulação e controle funcional.",
+    href: "#",
+    image: "/images/products/neurofuncional.webp",
+  },
+  {
+    title: "Cervical",
+    description: "Soluções específicas para procedimentos cervicais.",
+    href: "#",
+    image: "/images/products/cervical.webp",
   },
 ]
 
@@ -46,12 +46,15 @@ export function ProductsSection() {
           <span className="text-xs font-medium tracking-wider uppercase text-[#483FC5] block mb-4">
             PRODUTOS EM DESTAQUE
           </span>
+
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#0a0a0a] mb-6">
             Implantes Cirúrgicos
           </h2>
+
           <p className="text-lg text-[#6b6b6b] leading-relaxed">
-            A <strong>WTM Saúde SP</strong> atua com excelência na armazenagem e distribuição
-            de implantes cirúrgicos, aliando rigor técnico e eficiência logística.
+            A <strong>WTM Saúde SP</strong> atua com excelência na armazenagem e
+            distribuição de implantes cirúrgicos, aliando rigor técnico e
+            eficiência logística.
           </p>
         </div>
 
@@ -65,27 +68,39 @@ export function ProductsSection() {
             >
               {/* Background image */}
               <div
-                className="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                className="
+                  absolute inset-0
+                  bg-cover bg-center
+                  transition-transform duration-700 ease-out
+                  group-hover:scale-105
+                "
                 style={{ backgroundImage: `url(${product.image})` }}
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-black/45 group-hover:bg-black/20 transition-colors duration-500" />
+              <div
+                className="
+                  absolute inset-0
+                  bg-black/50
+                  transition-colors duration-500
+                  group-hover:bg-black/30
+                "
+              />
 
               {/* Content */}
               <div
                 className="
-                  relative z-10 h-full w-full p-8 flex flex-col justify-end
-                  transition-all duration-700 ease-out
-                  group-hover:opacity-70
-                  group-hover:translate-y-4
+                  relative z-10 h-full w-full p-8
+                  flex flex-col justify-end
+                  transition-all duration-500 ease-out
+                  group-hover:translate-y-3
                 "
               >
                 <h3 className="text-xl font-semibold text-white mb-3">
                   {product.title}
                 </h3>
 
-                <p className="text-sm text-white/85 mb-6 leading-relaxed">
+                <p className="text-sm text-white/90 mb-6 leading-relaxed">
                   {product.description}
                 </p>
 
