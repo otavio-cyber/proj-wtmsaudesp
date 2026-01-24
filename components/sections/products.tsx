@@ -5,34 +5,28 @@ import { ArrowUpRight } from "lucide-react"
 
 const products = [
   {
-    title: "Spine / Coluna",
+    title: "Spine Toracolombar",
     description: "Implantes e sistemas para cirurgias da coluna vertebral.",
     href: "#",
-    image: "/images/products/spine-coluna.webp",
+    image: "/images/products/spine-coluna.webp", // card 1
   },
   {
-    title: "Radiofrequência",
-    description: "Equipamentos para tratamentos minimamente invasivos.",
+    title: "Spine Cervical",
+    description: "Soluções específicas para procedimentos cervicais.",
     href: "#",
-    image: "/images/products/radiofrequencia.webp",
+    image: "/images/products/cervical.webp", // card 5
   },
   {
     title: "Neurocirurgia",
     description: "Dispositivos de alta precisão para neurocirurgia.",
     href: "#",
-    image: "/images/products/neurocirurgia.webp",
+    image: "/images/products/neurocirurgia.webp", // card 3
   },
   {
     title: "Neurofuncional",
     description: "Tecnologias para neuromodulação e controle funcional.",
     href: "#",
-    image: "/images/products/neurofuncional.webp",
-  },
-  {
-    title: "Cervical",
-    description: "Soluções específicas para procedimentos cervicais.",
-    href: "#",
-    image: "/images/products/cervical.webp",
+    image: "/images/products/neurofuncional.webp", // card 4
   },
 ]
 
@@ -59,7 +53,7 @@ export function ProductsSection() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
           {products.map((product) => (
             <Link
               key={product.title}
@@ -81,7 +75,7 @@ export function ProductsSection() {
               <div
                 className="
                   absolute inset-0
-                  bg-black/50
+                  bg-black/20
                   transition-colors duration-500
                   group-hover:bg-black/30
                 "

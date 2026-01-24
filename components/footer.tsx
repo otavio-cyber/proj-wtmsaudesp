@@ -24,7 +24,7 @@ const navigation = {
 
 export function Footer() {
   return (
-    <footer className="bg-[#0a0a0a] border-t border-[#1a1a1a]">
+<footer className="bg-[#021339] border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-16">
           {/* Logo and description */}

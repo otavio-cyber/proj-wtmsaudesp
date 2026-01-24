@@ -4,9 +4,9 @@ const specialties = [
     image: "/images/specialties/coluna-spine-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/specialties/coluna-spine-v2.webp" 
-          alt="Coluna e Spine - Cirurgia de coluna vertebral" 
+        <img
+          src="/images/specialties/coluna-spine-v2.webp"
+          alt="Coluna e Spine - Cirurgia de coluna vertebral"
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
       </div>
@@ -17,9 +17,9 @@ const specialties = [
     image: "/images/specialties/neurocirurgia-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/specialties/neurocirurgia-v2.webp" 
-          alt="Neurocirurgia - Cirurgia cerebral e neurológica" 
+        <img
+          src="/images/specialties/neurocirurgia-v2.webp"
+          alt="Neurocirurgia - Cirurgia cerebral e neurológica"
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
       </div>
@@ -30,22 +30,9 @@ const specialties = [
     image: "/images/specialties/neuromodulacao-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/specialties/neuromodulacao-v2.webp" 
-          alt="Neuromodulação - Estimulação elétrica terapêutica" 
-          className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
-        />
-      </div>
-    ),
-  },
-  {
-    title: "Radiofrequência",
-    image: "/images/specialties/radiofrequencia-v2.webp",
-    visual: (
-      <div className="h-full w-full flex items-center justify-center overflow-hidden">
-        <img 
-          src="/images/specialties/radiofrequencia-v2.webp" 
-          alt="Radiofrequência - Tratamento térmico por ondas de rádio" 
+        <img
+          src="/images/specialties/neuromodulacao-v2.webp"
+          alt="Neuromodulação - Estimulação elétrica terapêutica"
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
       </div>
@@ -68,7 +55,7 @@ export function SpecialtiesSection() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {specialties.map((specialty) => (
             <div
               key={specialty.title}

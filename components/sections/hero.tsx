@@ -10,15 +10,25 @@ const slides = [
   {
     id: 1,
     headline: "Operação logística e distribuição de excelência.",
-    subheadline: "Efetividade, segurança e pontualidade atuante nas cidades de São Paulo, Sorocaba, Baixada Santista e Vale do Paraíba",
-    image: "/images/hero-banner1.jpg",
+    subheadline:
+      "Efetividade, segurança e pontualidade atuante nas cidades de São Paulo, Sorocaba, Baixada Santista e Vale do Paraíba",
+    image: "/images/hero-banner1.webp",
   },
   {
     id: 2,
-    headline: "Apoio em procedimentos cirúrgicos.",
-    subheadline: "Excelência nos serviços de instrumentação estruturada para médicos, hospitais e operadoras.",
-    image: "/images/hero-slide-3.jpg",
+    headline: "Pela Vida, Sempre!",
+    subheadline:
+      "Excelência nos serviços de instrumentação estruturada para médicos, hospitais e operadoras.",
+    image: "/images/hero-banner2.webp",
   },
+  {
+    id: 3,
+    headline: "Pela Vida, Sempre!",
+    subheadline:
+      "Distribuição de soluções médicas com alto padrão técnico e suporte especializado.",
+    image: "/images/hero-banner3.webp",
+  },
+  
 ]
 
 export function HeroSection() {
@@ -64,7 +74,7 @@ export function HeroSection() {
           />
 
           {/* Soft gradient overlay for readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/80 to-white/10" />
           <div className="absolute inset-0 bg-gradient-to-t from-white/60 via-transparent to-white/30" />
         </div>
       ))}
