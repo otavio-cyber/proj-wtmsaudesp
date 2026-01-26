@@ -20,30 +20,27 @@ const navigation = {
 export function Footer() {
   return (
     <footer className="bg-[#021339] border-t border-white/10">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-16">
 
-        {/* Top grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-12">
-
-          {/* 1 - Logo e frase */}
+          {/* Coluna 1 – Logo */}
           <div>
             <Image
               src="/images/logo-wtmsaude-branco.svg"
               alt="WTM Saúde SP"
-              width={160}
-              height={40}
-              className="h-8 w-auto mb-6"
+              width={150}
+              height={36}
+              className="h-9 w-auto mb-6"
             />
-            <p className="text-sm text-white/70 leading-relaxed max-w-xs">
-              Tecnologia médica de alta complexidade com atuação técnica, logística e regulatória integrada.
+            <p className="text-sm text-white/70 leading-relaxed">
+              Tecnologia médica de alta complexidade com foco em precisão,
+              logística crítica e suporte cirúrgico especializado.
             </p>
           </div>
 
-          {/* 2 - Soluções */}
+          {/* Coluna 2 – Soluções */}
           <div>
-            <h3 className="text-sm font-semibold text-white mb-5 uppercase tracking-wide">
-              Soluções
-            </h3>
+            <h3 className="text-sm font-semibold text-white mb-4">Soluções</h3>
             <ul className="space-y-3">
               {navigation.solutions.map((item) => (
                 <li key={item.name}>
@@ -58,11 +55,9 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* 3 - Institucional */}
+          {/* Coluna 3 – Institucional */}
           <div>
-            <h3 className="text-sm font-semibold text-white mb-5 uppercase tracking-wide">
-              Institucional
-            </h3>
+            <h3 className="text-sm font-semibold text-white mb-4">Institucional</h3>
             <ul className="space-y-3">
               {navigation.institutional.map((item) => (
                 <li key={item.name}>
@@ -77,62 +72,43 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* 4 - Endereço */}
+          {/* Coluna 4 – Endereço */}
           <div>
-            <h3 className="text-sm font-semibold text-white mb-5 uppercase tracking-wide">
-              Endereço
-            </h3>
+            <h3 className="text-sm font-semibold text-white mb-4">Endereço</h3>
             <address className="not-italic text-sm text-white/70 leading-relaxed space-y-1">
               <p>Rua Barata Ribeiro, 190</p>
               <p>Bela Vista</p>
-              <p>Edifício Doctors Center</p>
+              <p>Ed. Doctors Center</p>
               <p>Salas 71 a 76</p>
               <p>CEP 01308-000</p>
             </address>
           </div>
 
-          {/* 5 - Fachada / Maps */}
-          <div>
-            <h3 className="text-sm font-semibold text-white mb-5 uppercase tracking-wide">
-              Localização
-            </h3>
+          {/* Coluna 5 – Imagem (sem título e mais alta) */}
+          <div className="flex items-start">
             <Link
-              href="https://www.google.com/maps/search/?api=1&query=Rua+Barata+Ribeiro+190+São+Paulo"
+              href="https://www.google.com/maps"
               target="_blank"
-              className="block relative aspect-square rounded-xl overflow-hidden border border-white/10 hover:opacity-90 transition"
+              className="block w-full"
             >
-              <Image
-                src="/images/fachada.webp"
-                alt="WTM Saúde SP - Fachada"
-                fill
-                className="object-cover"
-              />
+              <div className="relative aspect-square rounded-xl overflow-hidden border border-white/10 -mt-2">
+                <Image
+                  src="/images/quemsomos.webp"
+                  alt="WTM Saúde SP - Fachada"
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </Link>
           </div>
         </div>
 
         {/* Bottom */}
-        <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-white/50">
+        <div className="mt-16 pt-8 border-t border-white/10">
+          <p className="text-xs text-white/50 text-center">
             © {new Date().getFullYear()} WTM Saúde SP. Todos os direitos reservados.
           </p>
-
-          <div className="flex items-center gap-6">
-            <Link
-              href="#"
-              className="text-xs text-white/50 hover:text-white transition-colors"
-            >
-              Política de Privacidade
-            </Link>
-            <Link
-              href="#"
-              className="text-xs text-white/50 hover:text-white transition-colors"
-            >
-              Termos de Uso
-            </Link>
-          </div>
         </div>
-
       </div>
     </footer>
   )
