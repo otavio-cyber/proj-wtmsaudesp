@@ -3,11 +3,10 @@ import Image from "next/image"
 
 const navigation = {
   solutions: [
-    { name: "Spine / Coluna", href: "#" },
-    { name: "Cervical", href: "#" },
-    { name: "Neurofuncional", href: "#" },
+    { name: "Spine Toracolombar", href: "#" },
+    { name: "Spine Cervical", href: "#" },
     { name: "Neurocirurgia", href: "#" },
-    { name: "Radiofrequência", href: "#" },
+    { name: "Neurofuncional", href: "#" },
   ],
   institutional: [
     { name: "Sobre", href: "#" },
@@ -84,7 +83,7 @@ export function Footer() {
             </address>
           </div>
 
-          {/* Coluna 5 – Imagem (sem título e mais alta) */}
+          {/* Coluna 5 – Imagem */}
           <div className="flex items-start">
             <Link
               href="https://www.google.com/maps"
@@ -93,7 +92,7 @@ export function Footer() {
             >
               <div className="relative aspect-square rounded-xl overflow-hidden border border-white/10 -mt-2">
                 <Image
-                  src="/images/quemsomos.webp"
+                  src="/images/fachada.webp"
                   alt="WTM Saúde SP - Fachada"
                   fill
                   className="object-cover"
