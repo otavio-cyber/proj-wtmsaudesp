@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react"
 
 const products = [
   {
-    title: "Spine Toracolombar",
+    title: "Spine ToracoLombar",
     description: "Implantes e sistemas para cirurgias da coluna vertebral.",
     href: "#",
     image: "/images/products/spine-coluna.webp", // card 1

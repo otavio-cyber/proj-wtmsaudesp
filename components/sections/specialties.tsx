@@ -26,13 +26,13 @@ const specialties = [
     ),
   },
   {
-    title: "Neuromodulação",
+    title: "Neurofuncional",
     image: "/images/specialties/neuromodulacao-v2.webp",
     visual: (
       <div className="h-full w-full flex items-center justify-center overflow-hidden">
         <img
           src="/images/specialties/neuromodulacao-v2.webp"
-          alt="Neuromodulação - Estimulação elétrica terapêutica"
+          alt="Neurofuncional - Estimulação elétrica terapêutica"
           className="w-full h-full object-cover transition-transform duration-400 group-hover:scale-105"
         />
       </div>

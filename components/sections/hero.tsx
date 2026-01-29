@@ -74,8 +74,8 @@ export function HeroSection() {
           />
 
           {/* Soft gradient overlay for readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-white/80 via-white/80 to-white/10" />
-          <div className="absolute inset-0 bg-gradient-to-t from-white/60 via-transparent to-white/30" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white/70 via-white/10 to-white/1" />
+          <div className="absolute inset-0 bg-gradient-to-t from-white/70 via-transparent to-white/1" />
         </div>
       ))}
 
@@ -110,7 +110,7 @@ export function HeroSection() {
               {slides.map((slide, index) => (
                 <p
                   key={slide.id}
-                  className={`absolute inset-0 text-base sm:text-lg text-[#6b6b6b] leading-relaxed transition-all duration-700 delay-100 ${index === currentSlide
+                  className={`absolute inset-0 text-base sm:text-lg text-[#000000] leading-relaxed transition-all duration-700 delay-100 ${index === currentSlide
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-4"
                     }`}

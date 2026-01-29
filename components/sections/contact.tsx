@@ -72,7 +72,7 @@ export function ContactSection() {
                 <div>
                   <p className="text-sm font-semibold text-[#0a0a0a] mb-1">Telefone</p>
                   <p className="text-sm text-[#6b6b6b]">
-                    +55 (11) 0000-0000
+                    +55 (11) 3237-3626
                   </p>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export function ContactSection() {
           <div>
             <div className="bg-[#f8f8f8] rounded-2xl p-8 lg:p-10 border border-[#e5e5e5]">
               <h3 className="text-lg font-semibold text-[#0a0a0a] mb-2">
-                Iniciar contato institucional
+                Entre em Contato
               </h3>
               <p className="text-sm text-[#6b6b6b] mb-8">
                 Preencha o formulário para solicitar informações ou agendar uma reunião.
@@ -161,7 +161,7 @@ export function ContactSection() {
                   />
                 </div>
 
-                <Button 
+                <Button
                   type="submit"
                   className="w-full bg-[#483FC5] hover:bg-[#3d35a8] text-white font-medium h-12"
                 >
@@ -176,6 +176,24 @@ export function ContactSection() {
             </div>
           </div>
         </div>
+        {/* Google Maps */}
+        <div className="mt-24 -mx-6 lg:-mx-8">
+          <div className="text-center mb-8">
+            <h3 className="text-lg font-semibold text-[#0a0a0a] mb-2">
+              Como Chegar
+            </h3>
+          </div>
+          <div className="w-full h-[420px] relative">
+            <iframe
+              title="Localização WTM Saúde SP"
+              src="https://www.google.com/maps?q=Rua%20Barata%20Ribeiro,%20190,%20Bela%20Vista,%20São%20Paulo&output=embed"
+              className="absolute inset-0 w-full h-full border-0"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+
       </div>
     </section>
   )
