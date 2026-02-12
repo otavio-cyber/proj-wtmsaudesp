@@ -250,7 +250,7 @@ export default function HospitaisConveniosPage() {
                       required
                       value={formData.telefone}
                       onChange={handleChange}
-                      placeholder="(11) 00000-0000"
+                      placeholder="(11) 3237-3626"
                       className="h-12 rounded-xl border-[#e5e5e5] focus:border-[#483FC5] focus:ring-[#483FC5]"
                     />
                   </div>
@@ -318,7 +318,7 @@ export default function HospitaisConveniosPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-[#0a0a0a] mb-1">Telefone</h3>
-                      <p className="text-[#6b6b6b]">(11) 3000-0000</p>
+                      <p className="text-[#6b6b6b]">(11) 3237-3626</p>
                     </div>
                   </div>
 
