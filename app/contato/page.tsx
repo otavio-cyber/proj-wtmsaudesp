@@ -110,9 +110,9 @@ export default function ContatoPage() {
                 {
                   icon: Phone,
                   title: "Telefone",
-                  content: "(11) 3000-0000",
+                  content: "(11) 3237-3626",
                   subContent: "Seg a Sex, 8h às 18h",
-                  href: "tel:+551130000000"
+                  href: "tel:+551132373626"
                 },
                 {
                   icon: Mail,
